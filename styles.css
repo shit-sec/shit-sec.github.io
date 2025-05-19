@@ -1,0 +1,18 @@
+/* Custom styles beyond Tailwind */
+.dark {
+    color-scheme: dark;
+}
+
+pre {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.filter-button.active {
+    box-shadow: 0 0 0 2px white, 0 0 0 4px currentColor;
+}
+
+/* Dark mode adjustments */
+.dark .filter-button.active {
+    box-shadow: 0 0 0 2px #1a1a1a, 0 0 0 4px currentColor;
+} 
